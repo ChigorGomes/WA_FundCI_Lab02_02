@@ -1,7 +1,7 @@
 name: Build V2
 on: push
 jobs:
-  deploy:
+  lint:
     runs-on: ubuntu-latest
     steps:
       - name: Get code
